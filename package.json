@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Telegram bot built with grammy for evaluating code and web scraping",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
