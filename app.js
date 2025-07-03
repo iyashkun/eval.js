@@ -10,8 +10,8 @@ import * as path from "path";
 import { emojiParser } from "@grammyjs/emoji";
 
 const config = {
-  BOT_TOKEN: process.env.BOT_TOKEN || "7094367315:AAFhd5L9Kdm9YTvpVPYV-vKiSdq301y8CII",
-  SUDOERS: process.env.SUDOERS?.split(",").map(Number) || [5896960462],
+  BOT_TOKEN: process.env.BOT_TOKEN || "7094367315:AAGh9a9y0hmN1ggvSTXseCBADRk55X6N5E4",
+  SUDOERS: process.env.SUDOERS?.split(",").map(Number) || [5896960462, 6668774864],
   PREFIXES: process.env.PREFIXES?.split(",") || ["/", "!", "?"],
 };
 
